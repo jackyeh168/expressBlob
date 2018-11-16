@@ -173,7 +173,7 @@ function createDownloadLink(blob) {
     fd.append('data', blob);
     $.ajax({
       type: 'POST',
-      url: 'voice/upload',
+      url: 'upload',
       data: fd,
       contentType: false,
       processData: false,
